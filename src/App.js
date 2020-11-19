@@ -21,7 +21,7 @@ class App extends React.Component {
     const data = await api_call.json();
 
     if(city&&country){
-      console.log(data)
+      // console.log(data)
       this.setState({
         temperature: data.main.temp,
         city: data.name,
@@ -29,6 +29,15 @@ class App extends React.Component {
         humidity: data.main.humidity,
         description: data.weather[0].description,
         error:""
+      })
+    }else{
+      this.setState({
+        temperature: undefined,
+        city: undefined,
+        country: undefined,
+        humidity: undefined,
+        description: undefined,
+        error: "Please enter city and country."
       })
     }
 
