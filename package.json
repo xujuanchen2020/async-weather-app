@@ -45,12 +45,13 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xujuanchen2020/async-weather-app.git"
+    "url": "git+https://git.heroku.com/pure-ocean-03173.git"
+    
   },
   "author": "chen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xujuanchen2020/async-weather-app/issues"
-  },
-  "homepage": "https://github.com/xujuanchen2020/async-weather-app#readme"
+    "url": "https://git.heroku.com/pure-ocean-03173/issues"
+  }
+  
 }
